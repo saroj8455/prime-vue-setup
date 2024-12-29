@@ -10,7 +10,7 @@ const value = ref(null);
 	<div class="card flex justify-center">
 		<InputText type="text" v-model="value" /> {{ value }}
 	</div>
-	<div class="card flex justify-center">
+	<div class="card flex justify-center mt-2">
 		<Button label="Verify" />
 	</div>
 </template>
