@@ -1,0 +1,9 @@
+/* Apply Inter font globally */
+:root {
+	--font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+	font-family: var(--font-family);
+}
