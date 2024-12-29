@@ -4,7 +4,9 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import PrimeVue from 'primevue/config';
-import Aura from '@primevue/themes/aura';
+// import Aura from '@primevue/themes/aura';
+// import Lara from '@primevue/themes/lara';
+import Material from '@primevue/themes/material';
 
 // Import styles for PrimeVue 4.x
 // import '@primevue/themes/saga-blue/theme.css'; // Theme
@@ -16,7 +18,7 @@ import 'typeface-inter';
 const app = createApp(App);
 app.use(PrimeVue, {
 	theme: {
-		preset: Aura,
+		preset: Material,
 	},
 });
 app.use(router);
